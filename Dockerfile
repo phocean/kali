@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
   nikto wapiti python3-pip git sslsplit sslscan dsniff \
   patator crowbar hydra yersinia dnsenum bettercap \
   exploitdb python3-impacket impacket-scripts \
-  dnsenum dirb \
+  dnsenum dirb responder \
   && pip3 install pyip pyopenssl==17.2.0 impacket \
   && git clone https://github.com/SPiderLabs/ikeforce.git \
   && git clone https://github.com/jtesta/ssh-mitm.git \
